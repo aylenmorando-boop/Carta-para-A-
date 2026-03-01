@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Un pequeño pedazo de mi corazón</title>
+
+<style>
+body {
+margin: 0;
+padding: 0;
+font-family: 'Georgia', serif;
+background: linear-gradient(to bottom, #f3e8e6, #e6d5cf, #d8c2b5);
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+color: #5c4a42;
+}
+
+/* Pantalla de contraseña */
+
+.login {
+position: absolute;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background: linear-gradient(to bottom, #f3e8e6, #e6d5cf);
+}
+
+.login-box {
+background: rgba(255,255,255,0.8);
+padding: 30px;
+border-radius: 20px;
+box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+text-align: center;
+width: 90%;
+max-width: 350px;
+}
+
+input {
+padding: 10px;
+border-radius: 10px;
+border: 1px solid #cbb3a9;
+width: 80%;
+margin-top: 10px;
+}
+
+button {
+padding: 8px 20px;
+border-radius: 10px;
+border: none;
+background-color: #c7a89b;
+color: white;
+margin-top: 15px;
+cursor: pointer;
+}
+
+/* Carta */
+
+.contenido {
+display: none;
+padding: 40px 20px;
+text-align: center;
+animation: aparecer 2s ease;
+}
+
+.carta {
+background: rgba(255,255,255,0.85);
+padding: 40px 30px;
+border-radius: 25px;
+max-width: 600px;
+box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+line-height: 1.8;
+font-size: 18px;
+}
+
+h1 {
+font-weight: normal;
+margin-bottom: 30px;
+color: #7a5c50;
+}
+
+iframe {
+margin-top: 30px;
+border-radius: 20px;
+width: 100%;
+max-width: 560px;
+height: 315px;
+}
+
+@keyframes aparecer {
+from {opacity: 0; transform: translateY(20px);}
+to {opacity: 1; transform: translateY(0);}
+}
+</style>
+</head>
+
+<body>
+
+<div class="login" id="login">
+<div class="login-box">
+<h3>Ingresa la contraseña</h3>
+<input type="password" id="password" placeholder="Contraseña">
+<br>
+<button onclick="verificar()">Entrar</button>
+</div>
+</div>
+
+<div class="contenido" id="contenido">
+<div class="carta">
+
+<h1>Para alguien que fue importante</h1>
+
+<p>
+Querido Abner:
+Mi corazón siente una inquietud de no poderme despedir de ti de la forma adecuada, incluso más después de que el último mensaje que te envié ni siquiera lo escribí yo, es por eso que hoy escribo esta carta que expresa todo lo que mi corazón calla
+No puedo dártela en persona, no puedo hablarte ni escribirte, pero si puedo hacer algo que se que no puede cualquiera, así que aprendí a codificar para que puedas leer esto.
+Quiero que sepas que esta carta no es precisamente para el actual tú, se la escribo a ese chico romántico y tierno que algún día fuiste...
+
+Estoy muy agradecida por todos los momentos que pasamos, malos o buenos, porque siempre me enseñaron algo; agradezco tu bondad, cariño, afecto y lealtad por tantos años, nos vimos crecer y eso siempre quedará en mi memoria, el pequeño tú; agradezco a Dios porque te puso en mi camino, el sabía que ambos aprenderiamos muchas cosas uno del otro; agradezco todas las veces que te preocupaste por mi bienestar; agradezco que siempre fuiste suave conmigo, a pesar de las peleas, nunca fuiste brusco ni malo; agradezco las sonrisas; agradezco que siempre escuchaste mis problemas y los trataste como tuyos.
+
+Pido perdón por las veces que llené tus ojos de lágrimas, pido perdón por las noches que no pudiste dormir, pido perdón por todas mis actitudes inmaduras, pido perdón por ser seria, pido perdón por no intentar más, pido perdón por nuestros pleitos, pido perdón por rendirme, pido perdón por dejarte ir.
+
+Tengo tantas cosas que decirte, pero no todas son adecuadas, porque solo te pondrían triste, así como lo estoy yo. Tengo que admitir que no solo estoy triste, también estoy molesta, en verdad pensé que ya habías vuelto, que ya lo había solucionado, se siente feo tenerte un día y al día siguiente volver a perderte. Quizá pensé mal, quizá malentendí las cosas, hice ilusiones en mi cabeza que no existían, pensé que cambiaríamos ese 02/05 por un 14/02 realmente lo pensé, y mi corazón aún no entiende si mentiste, pero creo que en realidad eso ya no importa, solamente necesitaba decirlo, te pregunté si volverías con ella y dijiste que no, pero supongo que el amor que se tienen no podía borrarse por un amor añejo y olvidado como el nuestro.
+
+Es difícil que mi corazón y mente entiendan eso, y se que si volverías ahora no dudaría en perdonarte, eso significa que debo mejorar, debo olvidarte para poder ser feliz.
+Un amigo me dijo que lo mejor es olvidar aquello que te daña, olvidar que fuimos y olvidar tu nombre.
+Haré eso, intentaré, no quiero seguir sintiéndome así, porque se que tú nunca me escogerás por sobre ella.
+
+Solo me queda desearte la felicidad que tú y yo no pudimos tener, pero yo me sentiré bien si tú estás bien.
+Sé buen hijo, hermano, tío; enfócate en tus estudios y en aquellos que te quieren, sé muy feliz, siempre brilla y no dejes que nadie nunca te apague.
+Espero que me recuerdes como una bella etapa que tuvimos juntos, yo así lo haré, pero primero debo sanar.
+
+Cuídate siempre y no olvides guardar a Dios en tu corazón.
+Por lo que un día fue, con cariño Aylen.
+  
+</p>
+
+<p>
+En verdad espero que puedas leer esto, no necesito una respuesta, solo tener mi mente en paz. Escucha la música por favor...
+</p>
+
+<iframe
+src="https://m.youtube.com/embed/7GzCwlUeqYY&list=RD7GzCwlUeqYY&start_radio=1"
+frameborder="0"
+allowfullscreen>
+</iframe>
+
+</div>
+</div>
+
+<script>
+function verificar() {
+var contraseña = document.getElementById("password").value;
+if (contraseña === "020518") {
+document.getElementById("login").style.display = "none";
+document.getElementById("contenido").style.display = "block";
+} else {
+alert("Contraseña incorrecta");
+}
+}
+</script>
+
+</body>
+  </html>
